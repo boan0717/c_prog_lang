@@ -1,1 +1,15 @@
+#include <stdio.h>
 
+int main()
+{
+    int a = 23;
+    printf("a=%d\n", a);  // 輸出整數 a
+
+    float b = 45;
+    printf("b=%f\n", b);  // 輸出浮點數 b，預設顯示6位小數
+
+    // 正確的輸出，這裡我們將浮點數顯示為2位小數
+    printf("a=%d b=%.2f\n", a, b);  // 使用 %.2f 控制浮點數顯示2位小數
+
+    return 0;
+}
